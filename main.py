@@ -8,7 +8,7 @@ window.geometry('340x440')
 window.configure(bg='#333333')
 
 def login():
-    username = "johnsmith"
+    username = "tashfi"
     password = "12345"
     if username_entry.get()==username and password_entry.get()==password:
         messagebox.showinfo(title="Login Success", message="You successfully logged in.")
